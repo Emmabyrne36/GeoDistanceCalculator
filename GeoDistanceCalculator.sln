@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{47A147FE-60B8-4572-8725-2858D2D470F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CF0CED25-5AA4-44EA-8B96-E0A0A75ACC37}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - WebApi", "1 - WebApi", "{C65D02F7-7B2E-43EB-918D-A715DB9E5B8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{9A701B92-C2EE-4FD8-86A3-69654D657C6E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeoDistanceCalculator.Api", "src\GeoDistanceCalculator.Api\GeoDistanceCalculator.Api.csproj", "{50DFFDAE-ED0B-470F-B301-B1F586C100E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeoDistanceCalculator.Application", "src\GeoDistanceCalculator.Application\GeoDistanceCalculator.Application.csproj", "{FD8FB9ED-5394-484C-ACA7-57D8ADBA4264}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Data", "4 - Data", "{7842D6F5-EBAF-41D1-B163-465D573810DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeoDistanceCalculator.Data", "src\GeoDistanceCalculator.Data\GeoDistanceCalculator.Data.csproj", "{CFE77081-A465-40A8-88B8-A917636E059F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{AA8F69E8-4EC5-459E-B3CC-C383C9B72B49}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeoDistanceCalculator.Domain", "src\GeoDistanceCalculator.Domain\GeoDistanceCalculator.Domain.csproj", "{86764168-2B7D-4479-A291-E6DC2E7D41BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - WebApi.Tests", "1 - WebApi.Tests", "{8794208D-4DF2-48CA-8B98-1FEEE4DD7A11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application.Tests", "2 - Application.Tests", "{6AB0E25B-78AD-49E6-8226-9AB0F8B23FB5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeoDistanceCalculator.Application.UnitTests", "tests\GeoDistanceCalculator.Application.UnitTests\GeoDistanceCalculator.Application.UnitTests.csproj", "{907EA46B-0641-4C34-85D3-3241CFE02EEF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeoDistanceCalculator.Api.IntegrationTests", "tests\GeoDistanceCalculator.Api.IntegrationTests\GeoDistanceCalculator.Api.IntegrationTests.csproj", "{6675CA2D-9B60-44C0-9AE8-41DB8F8AC184}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50DFFDAE-ED0B-470F-B301-B1F586C100E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50DFFDAE-ED0B-470F-B301-B1F586C100E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50DFFDAE-ED0B-470F-B301-B1F586C100E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50DFFDAE-ED0B-470F-B301-B1F586C100E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD8FB9ED-5394-484C-ACA7-57D8ADBA4264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD8FB9ED-5394-484C-ACA7-57D8ADBA4264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD8FB9ED-5394-484C-ACA7-57D8ADBA4264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD8FB9ED-5394-484C-ACA7-57D8ADBA4264}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFE77081-A465-40A8-88B8-A917636E059F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFE77081-A465-40A8-88B8-A917636E059F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFE77081-A465-40A8-88B8-A917636E059F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFE77081-A465-40A8-88B8-A917636E059F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86764168-2B7D-4479-A291-E6DC2E7D41BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86764168-2B7D-4479-A291-E6DC2E7D41BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86764168-2B7D-4479-A291-E6DC2E7D41BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86764168-2B7D-4479-A291-E6DC2E7D41BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{907EA46B-0641-4C34-85D3-3241CFE02EEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{907EA46B-0641-4C34-85D3-3241CFE02EEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{907EA46B-0641-4C34-85D3-3241CFE02EEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{907EA46B-0641-4C34-85D3-3241CFE02EEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6675CA2D-9B60-44C0-9AE8-41DB8F8AC184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6675CA2D-9B60-44C0-9AE8-41DB8F8AC184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6675CA2D-9B60-44C0-9AE8-41DB8F8AC184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6675CA2D-9B60-44C0-9AE8-41DB8F8AC184}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C65D02F7-7B2E-43EB-918D-A715DB9E5B8E} = {47A147FE-60B8-4572-8725-2858D2D470F3}
+		{9A701B92-C2EE-4FD8-86A3-69654D657C6E} = {47A147FE-60B8-4572-8725-2858D2D470F3}
+		{50DFFDAE-ED0B-470F-B301-B1F586C100E6} = {C65D02F7-7B2E-43EB-918D-A715DB9E5B8E}
+		{FD8FB9ED-5394-484C-ACA7-57D8ADBA4264} = {9A701B92-C2EE-4FD8-86A3-69654D657C6E}
+		{7842D6F5-EBAF-41D1-B163-465D573810DE} = {47A147FE-60B8-4572-8725-2858D2D470F3}
+		{CFE77081-A465-40A8-88B8-A917636E059F} = {7842D6F5-EBAF-41D1-B163-465D573810DE}
+		{AA8F69E8-4EC5-459E-B3CC-C383C9B72B49} = {47A147FE-60B8-4572-8725-2858D2D470F3}
+		{86764168-2B7D-4479-A291-E6DC2E7D41BC} = {AA8F69E8-4EC5-459E-B3CC-C383C9B72B49}
+		{8794208D-4DF2-48CA-8B98-1FEEE4DD7A11} = {CF0CED25-5AA4-44EA-8B96-E0A0A75ACC37}
+		{6AB0E25B-78AD-49E6-8226-9AB0F8B23FB5} = {CF0CED25-5AA4-44EA-8B96-E0A0A75ACC37}
+		{907EA46B-0641-4C34-85D3-3241CFE02EEF} = {6AB0E25B-78AD-49E6-8226-9AB0F8B23FB5}
+		{6675CA2D-9B60-44C0-9AE8-41DB8F8AC184} = {8794208D-4DF2-48CA-8B98-1FEEE4DD7A11}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D251CE9A-D4B6-486B-AAD5-7461A3AC5A81}
+	EndGlobalSection
+EndGlobal
